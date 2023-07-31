@@ -4,6 +4,7 @@ import Room_Data
 
 class Map:
     def __init__(self, x_origin, y_origin):
+        #Initialize.
         self.x0 = x_origin
         self.y0 = y_origin
         self.room_x = x_origin
@@ -11,10 +12,12 @@ class Map:
         self.wall_sprite = pygame.image.load('Sprites/Dungeon/Base_Wall.png')
 
     def update(self, x, y):
+        #Update.
         self.x0 = x
         self.y0 = y
         self.room_x = x
         self.room_y = y
+        
     def read(self, map_data, window):
         #Initialze different tile layers.
         self.tiles_back = []
