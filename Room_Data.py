@@ -75,13 +75,14 @@ tile_sprites = {
      19:  pygame.image.load('Sprites/Dungeon/Tiles/Tile22.png'),  #   Bottom door closed under.
      20:  pygame.image.load('Sprites/Dungeon/Tiles/Tile20.png'),  #   Left closed door under.
      21:  pygame.image.load('Sprites/Dungeon/Tiles/Tile21.png'),  #   Right closed door under.
-     22: pygame.image.load('Sprites/Dungeon/Tiles/Tile2.png'), #Block tile.
-     23: pygame.image.load('Sprites/Dungeon/Tiles/Tile3.png'), #Weird fish statue.
-     24: pygame.image.load('Sprites/Dungeon/Tiles/Tile4.png'), #Another weird fish statue.
-     25: pygame.image.load('Sprites/Dungeon/Tiles/Tile6.png'), #Sand floor tile.
-     26: pygame.image.load('Sprites/Dungeon/Tiles/Tile27.png') #Water tile.
+     22: pygame.image.load('Sprites/Dungeon/Tiles/Tile2.png'),    #   Block tile.
+     23: pygame.image.load('Sprites/Dungeon/Tiles/Tile3.png'),    #   Weird fish statue.
+     24: pygame.image.load('Sprites/Dungeon/Tiles/Tile4.png'),    #   Another weird fish statue.
+     25: pygame.image.load('Sprites/Dungeon/Tiles/Tile6.png'),    #   Sand floor tile.
+     26: pygame.image.load('Sprites/Dungeon/Tiles/Tile27.png')    #   Water tile.
 }
 
+#Organize the tiles into these lists so the interepreter knows what tiles to draw in order, and what also collides with the player.
 floor_tiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 25]
 collision_tiles = [0, 18, 19, 20, 21, 22, 23, 24, 26]
 ceiling_tiles = [10, 11, 12, 13, 14, 15, 16, 17]
