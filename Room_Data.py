@@ -1,5 +1,7 @@
 import pygame
 
+#The purpose of this script is to just store the specific room data by keying tiles and sending them to the room interpreter script.
+
 room_layout = {
     1 : [[ 0, 0, 0, 0, 0, 0, 0,10,10, 0, 0, 0, 0, 0, 0, 0],
          [ 0, 0, 0, 0, 0, 0, 0, 3, 2, 0, 0, 0, 0, 0, 0, 0],
